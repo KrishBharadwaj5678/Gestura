@@ -32,9 +32,6 @@ Gestura is a cutting-edge, AI-powered webpage designed for real-time facial reco
 2. Allow camera permissions for real-time detection.
 3. Observe the analysis for face gestures, landmarks, age, and gender.
 
-## Demo
-[Insert a link to a live demo or screenshots of the webpage in action.]
-
 ## Contributing
 Contributions are welcome! Follow these steps:
 1. Fork the repository.
@@ -48,12 +45,3 @@ Contributions are welcome! Follow these steps:
    ```
 4. Open a Pull Request.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-- [TensorFlow.js](https://www.tensorflow.org/js) / [Mediapipe](https://mediapipe.dev) for the AI models.
-- Inspiration from real-world AI applications.
-
-## Contact
-For questions or feedback, please reach out at [your-email@example.com](mailto:your-email@example.com).
