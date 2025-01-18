@@ -8,11 +8,6 @@ Gestura is a cutting-edge, AI-powered webpage designed for real-time facial reco
 - **Age Estimation**: Predict age with high accuracy.
 - **Gender Detection**: Determine gender using advanced algorithms.
 
-## Technology Stack
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Node.js (or specify your backend tech if different)
-- **AI Model**: TensorFlow.js / OpenCV.js / Mediapipe (or specify the AI framework used)
-
 ## Installation
 1. Clone the repository:
    ```bash
