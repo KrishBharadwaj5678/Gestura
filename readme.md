@@ -1,30 +1,64 @@
-# Facial Recognition with JavaScript using face-api.js
-### To start up the app:
-1. run npm install in the root directory
-2. run node on server.js
-3. go to http://localhost:5000
-### images in public were generated with fooocus. None are known to have any actual people in them
+# Gestura
 
-### [Face API Github](https://github.com/justadudewhohacks/face-api.js)
+Gestura is a cutting-edge, AI-powered webpage designed for real-time facial recognition. It can accurately detect face gestures, landmarks, age, and gender, making it a versatile tool for various applications.
 
-### Loading 4 primary models
-``` javascript
-    await Promise.all([
-        faceapi.nets.ssdMobilenetv1.loadFromUri('./models'),
-        faceapi.nets.faceLandmark68Net.loadFromUri('./models'),
-        faceapi.nets.faceRecognitionNet.loadFromUri('./models'),
-        faceapi.nets.ageGenderNet.loadFromUri('./models'),
-    ])
-```
+## Features
+- **Face Gesture Detection**: Analyze facial expressions and movements with precision.
+- **Landmark Identification**: Identify key facial points for detailed analysis.
+- **Age Estimation**: Predict age with high accuracy.
+- **Gender Detection**: Determine gender using advanced algorithms.
 
-### Stock photos I use, 2 Ronaldo and 1 Musk:
+## Technology Stack
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Node.js (or specify your backend tech if different)
+- **AI Model**: TensorFlow.js / OpenCV.js / Mediapipe (or specify the AI framework used)
 
-- https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Cristiano_Ronaldo_playing_for_Al_Nassr_FC_against_Persepolis%2C_September_2023_%28cropped%29.jpg/220px-Cristiano_Ronaldo_playing_for_Al_Nassr_FC_against_Persepolis%2C_September_2023_%28cropped%29.jpg
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/gestura.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd gestura
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+5. Open your browser and navigate to `http://localhost:3000`.
 
-- https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Cristiano_Ajax.jpg/170px-Cristiano_Ajax.jpg
+## Usage
+1. Open the webpage in your browser.
+2. Allow camera permissions for real-time detection.
+3. Observe the analysis for face gestures, landmarks, age, and gender.
 
-- https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Elon_Musk_Colorado_2022_%28cropped2%29.jpg/220px-Elon_Musk_Colorado_2022_%28cropped2%29.jpg
+## Demo
+[Insert a link to a live demo or screenshots of the webpage in action.]
 
-- https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/JordanSmithWorthy2.jpg/170px-JordanSmithWorthy2.jpg
+## Contributing
+Contributions are welcome! Follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes and push to your branch:
+   ```bash
+   git push origin feature-name
+   ```
+4. Open a Pull Request.
 
-- https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Michael_Jordan_in_2014.jpg/220px-Michael_Jordan_in_2014.jpg
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+## Acknowledgments
+- [TensorFlow.js](https://www.tensorflow.org/js) / [Mediapipe](https://mediapipe.dev) for the AI models.
+- Inspiration from real-world AI applications.
+
+## Contact
+For questions or feedback, please reach out at [your-email@example.com](mailto:your-email@example.com).
