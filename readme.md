@@ -11,7 +11,7 @@ Gestura is a cutting-edge, AI-powered webpage designed for real-time facial reco
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/KrishBharadwaj394/Gestura.git
+   git clone https://github.com/KrishBharadwaj5678/Gestura.git
    ```
 2. Navigate to the project directory:
    ```bash
